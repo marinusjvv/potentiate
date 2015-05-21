@@ -1,6 +1,6 @@
 <?php
 
-use MarinusJvv\Potentiate\Packages\Package;
+use MarinusJvv\Potentiate\Packages;
 
 class PackageTest extends PHPUnit_Framework_TestCase
 {

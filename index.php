@@ -38,7 +38,7 @@ $<?php echo $item['price']; ?>&nbsp;
 <?php
 }
 ?>
-<input type="Submit" name="Submit" value="Submit">
+<input type="Submit" name="Submit" value="Place order">
 </form>
 </body>
 </html>

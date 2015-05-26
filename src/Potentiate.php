@@ -65,8 +65,13 @@ class Potentiate
     {
         $package_count = $this->getPackageCount($data);
         for ($i = 0; $i < $package_count; $i++) {
-            $this->packages[] = new Package();
+            $this->addNewPackage();
         }
+    }
+
+    private function addNewPackage()
+    {
+        $this->packages[] = new Package();
     }
 
     /**
@@ -147,8 +152,8 @@ class Potentiate
      */
     private function checkFailCount($failCount)
     {
-        if ($failCount > count($this->packages) + 5) {
-            exit('Something went wrong :(');
+        if ($failCount > count($this->packages)) {
+            $this->addNewPackage();
         }
     }
 

@@ -1,5 +1,7 @@
 This project was created in order to complete a technical test
-for Potentiate. You can clone it using the following commind: 
+for Potentiate. The test details can be found in Test_details.md
+
+You can clone it using the following command: 
 
 git clone git@github.com:marinusjvv/potentiate.git
 
